@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+}
+#titlelist{
+    color: rgb(21, 84, 156);
+}
+
+#book{
+    height:25px;
+    width: 280px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+#author{
+    height:25px;
+    width: 280px;
+    margin-top: 15px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+#id{
+    height:25px;
+    width: 280px;
+    margin-top: 15px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+table {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+  
+.container{
+    text-align: center;
+}
+
+.add-btn{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(35, 176, 211);
+    border: none;
+    width: 286px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.add-btn:hover {
+    background-color: #197458;
+    color: white;
+  }
+
+#alert{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: chocolate;
+    width: 286px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#success{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: rgb(27, 121, 43);
+    width: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#delete{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: rgb(168, 22, 22);
+    width: 286px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#remove-btn{
+    background-color: crimson;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
